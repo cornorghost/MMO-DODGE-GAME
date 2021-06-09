@@ -1,0 +1,286 @@
+﻿生成启动时间为 2021/6/8 18:56:52。
+     1>项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>正在使用工具版本“15.0”进行生成。
+       由于条件的计算结果为 false，已跳过目标“EnableIntermediateOutputPathMismatchWarning”；('$(RestoreProjectStyle)' == 'PackageReference')的计算结果为('' == 'PackageReference')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_CheckForInvalidConfigurationAndPlatform”(目标“SetTelemetryEnvironmentVariables”依赖于它):
+       由于 false 条件，已跳过任务“Error”；( '$(_InvalidConfigurationError)' == 'true' )计算为( '' == 'true' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(_InvalidConfigurationWarning)' == 'true' )计算为( '' == 'true' )。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Message”任务。
+       任务“Message”
+         Configuration=Debug
+       已完成执行任务“Message”的操作。
+       任务“Message”
+         Platform=ARM
+       已完成执行任务“Message”的操作。
+       由于 false 条件，已跳过任务“Error”；('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)'))计算为('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\' != '' and !HasTrailingSlash('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\'))。
+       由于 false 条件，已跳过任务“Error”；('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)'))计算为('obj\' != '' and !HasTrailingSlash('obj\'))。
+       由于 false 条件，已跳过任务“Error”；('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)'))计算为('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\' != '' and !HasTrailingSlash('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\'))。
+       由于 false 条件，已跳过任务“Error”；( '$(_InitialMSBuildProjectExtensionsPath)' != '' And '$(MSBuildProjectExtensionsPath)' != '$(_InitialMSBuildProjectExtensionsPath)' )计算为( 'G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\' != '' And 'G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\' != 'G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\' )。
+       由于 false 条件，已跳过任务“Warning”；( '$(EnableBaseIntermediateOutputPathMismatchWarning)' == 'true' And '$(_InitialBaseIntermediateOutputPath)' != '$(BaseIntermediateOutputPath)' And '$(BaseIntermediateOutputPath)' != '$(MSBuildProjectExtensionsPath)' )计算为( '' == 'true' And 'obj\' != 'obj\' And 'obj\' != 'G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\' )。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_CheckForInvalidConfigurationAndPlatform”的操作。
+       已跳过目标“_CheckForInvalidConfigurationAndPlatform”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.DesignTime.targets”中的目标“SetTelemetryEnvironmentVariables”(目标“Rebuild”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“SetEnv”任务。
+       任务“SetEnv”
+         VSTEL_SolutionSessionID={389218A7-8489-4BAC-99BD-286845CEABDA}
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         VSTEL_CurrentSolutionBuildID=1759522953
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         VSTEL_ProjectID={371a886f-aad4-4b8f-affb-d52db3b23b37}
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“SetTelemetryEnvironmentVariables”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“_PrepareForRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_PrepareForRebuild”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeRebuild”(目标“Rebuild”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BeforeRebuild”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“_PrepareForClean”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“Delete”；(Exists($(LastBuildState)))计算为(Exists(G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\testlinux.tlog\testlinux.lastbuildstate))。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_PrepareForClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeClean”(目标“Clean”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BeforeClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“UnmanagedUnregistration”；((('$(_AssemblyTimestampBeforeCompile)' != '$(_AssemblyTimestampAfterCompile)' or '$(RegisterForComInterop)' != 'true' or '$(OutputType)' != 'library') or
+                           ('$(_AssemblyTimestampBeforeCompile)' == '')) and
+                          Exists('@(_UnmanagedRegistrationCache)'))的计算结果为((('' != '' or '' != 'true' or 'exe' != 'library') or
+                           ('' == '')) and
+                          Exists('obj\testlinux.vcxproj.UnmanagedRegistration.cache'))。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CoreClean”(目标“Clean”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Delete”任务。
+       任务“Delete”
+         文件“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\\TempCA\testlinux.pdb”不存在。正在跳过。
+         文件“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\\TempCA\testlinux.out”不存在。正在跳过。
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“ReadLinesFromFile”任务。
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“FindUnderPath”任务。
+       任务“FindUnderPath”
+         比较路径为“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“FindUnderPath”
+         比较路径为“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\”。
+       已完成执行任务“FindUnderPath”的操作。
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“RemoveDuplicates”任务。
+       任务“RemoveDuplicates”
+       已完成执行任务“RemoveDuplicates”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MakeDir”任务。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“WriteLinesToFile”任务。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“CoreClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AssignProjectConfiguration”(目标“PrepareProjectReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“AssignProjectConfiguration”任务。
+       任务“AssignProjectConfiguration”
+       已完成执行任务“AssignProjectConfiguration”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“AssignProjectConfiguration”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_SplitProjectReferencesByFileExistence”(目标“PrepareProjectReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveNonMSBuildProjectOutput”；('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='')计算为('true'=='true' and ''!='')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_SplitProjectReferencesByFileExistence”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“_GetProjectReferenceTargetFrameworkProperties”(目标“PrepareProjectReferences”依赖于它):
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“MSBuild”任务。
+       任务“MSBuild”
+       已完成执行任务“MSBuild”的操作。
+       由于 false 条件，已跳过任务“GetReferenceNearestTargetFrameworkTask”；('@(_ProjectReferenceTargetFrameworkPossibilities->Count())' != '0' and '$(ReferringTargetFrameworkForProjectReferences)' != '')计算为('0' != '0' and '' != '')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_GetProjectReferenceTargetFrameworkProperties”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“PrepareProjectReferences”(目标“CleanReferencedProjects”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“PrepareProjectReferences”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanReferencedProjects”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('true' != 'true' and 'true' == 'true' and '' != '')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“CleanReferencedProjects”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“CleanPublishFolder”(目标“Clean”依赖于它):
+       由于 false 条件，已跳过任务“RemoveDir”；('$(PublishDir)'=='$(OutputPath)app.publish\' and Exists('$(PublishDir)'))计算为('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\app.publish\'=='G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\app.publish\' and Exists('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\app.publish\'))。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“CleanPublishFolder”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterClean”(目标“Clean”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“AfterClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“BeforeCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BeforeCppClean”的操作。
+       由于条件的计算结果为 false，已跳过目标“_RemoteClean”；('$(CleanRemoteProjectDirectory)' != 'false' and '$(RequireRemoteConnection)' == 'true')的计算结果为('true' != 'false' and '' == 'true')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“CoreCppClean”(目标“CppClean”依赖于它):
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll”中的“CppClean”任务。
+       任务“CppClean”
+       已完成执行任务“CppClean”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“CoreCppClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“AfterCppClean”(目标“CppClean”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“AfterCppClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“PGInstrumentedClean”(目标“CppClean”依赖于它):
+       任务“Delete”
+       已完成执行任务“Delete”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“PGInstrumentedClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets”中的目标“CppClean”(目标“Clean”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“CppClean”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“Clean”(目标“Rebuild”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“Clean”的操作。
+       已跳过目标“SetTelemetryEnvironmentVariables”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“_PrepareForBuild”(目标“Build”依赖于它):
+       由于 false 条件，已跳过任务“CreateItem”；('%(CustomBuild.IncludeFileToTool)'!='')计算为(''!='')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_PrepareForBuild”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“_PrepareForReferenceResolution”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“Message”；('$(_REFERENCE_DEBUG)'=='true')计算为(''=='true')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_PrepareForReferenceResolution”的操作。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\..\engine\EpollServer.cpp;..\..\engine\EpollServer_Funs.cpp;..\..\engine\EpollServer_Thread.cpp;..\..\engine\INetBase.cpp;..\..\engine\TcpClient.cpp;..\..\engine\TcpClient_Funs.cpp;..\..\engine\TcpClient_Thread.cpp;..\..\share\ShareFunction.cpp;..\..\share\tinyxml\md5.cpp;..\..\share\tinyxml\tinystr.cpp;..\..\share\tinyxml\tinyxml.cpp;..\..\share\tinyxml\tinyxmlerror.cpp;..\..\share\tinyxml\tinyxmlparser.cpp;AppGlobal.cpp;AppManager.cpp;AppPlayer.cpp;AppTest.cpp;main.cpp'!='' and 'false'=='true' and '' != 'false')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BeforeResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BeforeResolveReferences”的操作。
+       已跳过目标“AssignProjectConfiguration”。以前的生成已成功。
+       已跳过目标“PrepareProjectReferences”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“_RemoveNameMetadataFromProjectReferenceItems”；('@(ProjectReference)'!='')的计算结果为(''!='')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveProjectReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“MSBuild”；('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '')计算为('' == 'true' and '' != '' and 'true' == 'true' and '' != '')。
+       由于 false 条件，已跳过任务“Warning”；('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '')计算为('' != '' and '' != '')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ResolveProjectReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“FindInvalidProjectReferences”；('$(FindInvalidProjectReferences)' == 'true')的计算结果为('' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“ResolveNativeReferences”；('@(NativeReference)'!='')的计算结果为(''!='')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       已跳过目标“ResolveProjectReferences”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“FindInvalidProjectReferences”；('$(FindInvalidProjectReferences)' == 'true')的计算结果为('' == 'true')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetFrameworkPaths”(目标“ResolveAssemblyReferences”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“GetFrameworkPaths”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“GetReferenceAssemblyPaths”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetReferenceAssemblyPaths”；('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == ''))计算为('' != '' and ('' == '' or '' == ''))。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“GetReferenceAssemblyPaths”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets”中的目标“SetBuildDefaultEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       任务“SetEnv”
+         PATH=E:\xshell\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\libnvvp;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\NVIDIA Corporation\Nsight Compute 2019.4.0\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v10.1\lib\x64;C:\Program Files\Python38\Scripts\;C:\Program Files\Python38\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\OSG\bin;C:\PCL 1.8.1\bin;C:\PCL 1.8.1\3rdParty\Boost\lib;C:\PCL 1.8.1\3rdParty\FLANN\bin;C:\PCL 1.8.1\3rdParty\Qhull\bin;C:\PCL 1.8.1\3rdParty\VTK\bin;C:\PCL 1.8.1\3rdParty\OpenNI2\Lib;C:\PCL 1.8.1\3rdParty\OpenNI2\Redist;C:\PCL 1.8.1\3rdParty\OpenNI2\Tools;C:\OPENCV\opencv\build\x64\vc15\bin;C:\Qt\5.12.5\msvc2017_64\bin;C:\Program Files\dotnet\;E:\tortoisegit\bin;E:\camke\bin;C:\Users\cornor\Desktop\OPENCV420\x64\vc15\bin;F:\osg362\bin;E:\javase\jdk\bin;E:\neo4j\neo4j-community-3.5.17\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;E:\graph\bin;E:\graph\bin\dot.exe;E:\nodejs\;E:\vscode\Microsoft VS Code\bin;E:\git\Git\cmd;E:\git\Git\usr\bin;C:\Users\cornor\AppData\Local\Microsoft\WindowsApps;E:\bandzip\;E:\pycharm\PyCharm Edu 2018.3\bin;;;C:\Users\cornor\AppData\Local\Programs\Fiddler;E:\vscode\Microsoft VS Code\bin;C:\Users\cornor\AppData\Roaming\npm;C:\Users\cornor\.dotnet\tools
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIB=
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         LIBPATH=
+       已完成执行任务“SetEnv”的操作。
+       任务“SetEnv”
+         INCLUDE=
+       已完成执行任务“SetEnv”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“SetBuildDefaultEnvironmentVariables”的操作。
+       由于条件的计算结果为 false，已跳过目标“SetUserMacroEnvironmentVariables”；('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true')的计算结果为('' != '' and '' != 'true')。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“GetResolvedWinMD”(目标“PrepareForBuild”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“GetResolvedWinMD”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets”中的目标“PlatformPrepareForBuild”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(_Error64bitToolsNotInstalled)' == 'true')计算为('' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == '')计算为(''!='true' and 'true' != 'true' and 'Remote_GCC_1_0' == '')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v110')计算为(''!='true' and 'true' != 'true' and 'Remote_GCC_1_0' == 'v110')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100')计算为(''!='true' and 'true' != 'true' and 'Remote_GCC_1_0' == 'v100')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90')计算为(''!='true' and 'true' != 'true' and 'Remote_GCC_1_0' == 'v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110')计算为(''!='true' and 'true' != 'true' and 'Remote_GCC_1_0' != 'v90' and 'Remote_GCC_1_0' != 'v100' and 'Remote_GCC_1_0' != 'v110')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“PlatformPrepareForBuild”的操作。
+       已跳过目标“GetFrameworkPaths”。以前的生成已成功。
+       已跳过目标“GetReferenceAssemblyPaths”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“AssignLinkMetadata”；( '$(SynthesizeLinkMetadata)' == 'true' )的计算结果为( '' == 'true' )。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets”中的目标“SetCABuildNativeEnvironmentVariables”(目标“PrepareForBuild”依赖于它):
+       由于 false 条件，已跳过任务“SetEnv”；('$(CAExcludePath)'!='')计算为(''!='')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“SetCABuildNativeEnvironmentVariables”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“PrepareForBuild”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)' != 'true' and '$(ConfigurationPlatformExists)' != 'true')计算为('' != 'true' and 'true' != 'true')。
+       任务“MakeDir”
+       已完成执行任务“MakeDir”的操作。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsAppContainer)'=='true' and '$(ConfigurationType)'!='Application' and '$(ConfigurationType)'!='DynamicLibrary' and '$(ConfigurationType)'!='StaticLibrary')计算为(''!='true' and 'false'=='true' and 'Application'!='Application' and 'Application'!='DynamicLibrary' and 'Application'!='StaticLibrary')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and ('$(TargetFrameworkVersion)'=='v3.5' or '$(TargetFrameworkVersion)'=='v3.0' or '$(TargetFrameworkVersion)'=='v2.0' ))计算为(''!='true' and 'VCToolsInstallDir_is_not_defined'=='' and '' != 'true' and (''=='v3.5' or ''=='v3.0' or ''=='v2.0' ))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true' and '$(PlatformToolset)'=='v90')计算为(''!='true' and 'VCToolsInstallDir_is_not_defined'=='' and '' != 'true' and 'Remote_GCC_1_0'=='v90')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(VCToolsInstallDir)'=='' and '$(UseEnv)' != 'true')计算为(''!='true' and 'VCToolsInstallDir_is_not_defined'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(WindowsSDKDir)'=='' and '$(UseEnv)' != 'true')计算为(''!='true' and 'WindowsSdkDir_is_not_defined'=='' and '' != 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(IntDirTrailingSlashWarning)'=='true')计算为(''!='true' and ''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(OutDirTrailingSlashWarning)'=='true')计算为(''!='true' and ''=='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('%(CompatibilityIssues.Identity)' != '' and '$(DesignTimeBuild)'!='true')计算为('' != '' and ''!='true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(IgnoreWarnIntDirSharingDetected)' != 'true' and '$(IntDirSharingDetected)' == 'true')计算为('' != 'true' and '' == 'true')。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)'!='true' and '$(IgnoreWarnIntDirInTempDetected)' != 'true' and ('$(_IntDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_IntDirFullpath.StartsWith($(Temp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Tmp), true, null))' == 'true' or '$(_OutDirFullpath.StartsWith($(Temp), true, null))' == 'true'))计算为(''!='true' and '' != 'true' and ('False' == 'true' or 'False' == 'true' or 'False' == 'true' or 'False' == 'true'))。
+       由于 false 条件，已跳过任务“VCMessage”；('$(DesignTimeBuild)' != 'true' and '$(SpectreMitigation)' != '' and '$(SpectreMitigation)' != 'false' and (('$(_VC_Target_Library_Platform)' == 'OneCore' and !Exists('$(VC_LibraryPath_VC_x86_OneCore)')) or ('$(_VC_Target_Library_Platform)' == 'Desktop' and !Exists('$(VC_LibraryPath_VC_x86_Desktop)'))))计算为('' != 'true' and 'false' != '' and 'false' != 'false' and (('' == 'OneCore' and !Exists('')) or ('' == 'Desktop' and !Exists(''))))。
+       任务“MakeDir”
+         正在创建目录“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\bin\ARM\Debug\”。
+         正在创建目录“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\testlinux.tlog\”。
+       已完成执行任务“MakeDir”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“PrepareForBuild”的操作。
+       已跳过目标“_PrepareForReferenceResolution”。以前的生成已成功。
+       由于条件的计算结果为 false，已跳过目标“ComputeCrtSDKReference”；('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false')的计算结果为('..\..\engine\EpollServer.cpp;..\..\engine\EpollServer_Funs.cpp;..\..\engine\EpollServer_Thread.cpp;..\..\engine\INetBase.cpp;..\..\engine\TcpClient.cpp;..\..\engine\TcpClient_Funs.cpp;..\..\engine\TcpClient_Thread.cpp;..\..\share\ShareFunction.cpp;..\..\share\tinyxml\md5.cpp;..\..\share\tinyxml\tinystr.cpp;..\..\share\tinyxml\tinyxml.cpp;..\..\share\tinyxml\tinyxmlerror.cpp;..\..\share\tinyxml\tinyxmlparser.cpp;AppGlobal.cpp;AppManager.cpp;AppPlayer.cpp;AppTest.cpp;main.cpp'!='' and 'false'=='true' and '' != 'false')。
+       由于条件的计算结果为 false，已跳过目标“GetInstalledSDKLocations”；('@(SDKReference)' != '')的计算结果为('' != '')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveSDKReference”；('@(SDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ResolveSDKReferences”的操作。
+       已跳过目标“ResolveSDKReferences”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ExpandSDKReferences”(目标“ResolveAssemblyReferences”依赖于它):
+       由于 false 条件，已跳过任务“GetSDKReferenceFiles”；('@(ResolvedSDKReference)'!='')计算为(''!='')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ExpandSDKReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveNuGetPackageAssets”；('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)'))的计算结果为('true' == 'true' and exists('obj\project.assets.json'))。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveAssemblyReferences”(目标“ResolveReferences”依赖于它):
+       由于 false 条件，已跳过任务“ResolveAssemblyReference”；('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '')计算为(''!='' or ''!='' or '' != '')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ResolveAssemblyReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirects”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true')的计算结果为('' == 'true' and 'true' == 'true')。
+       由于条件的计算结果为 false，已跳过目标“GenerateBindingRedirectsUpdateAppConfig”；('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)'))的计算结果为('' == 'true' and 'true' == 'true' and Exists('G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\testlinux.out.config'))。
+       由于条件的计算结果为 false，已跳过目标“ResolveComReferences”；('@(COMReference)'!='' or '@(COMFileReference)'!='')的计算结果为(''!='' or ''!='')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“AfterResolveReferences”(目标“ResolveReferences”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“AfterResolveReferences”的操作。
+       由于条件的计算结果为 false，已跳过目标“ResolveTestReferences”；('@(Shadow)'!='')的计算结果为(''!='')。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“ResolveReferences”(目标“Build”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ResolveReferences”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets”中的目标“InitializeBuildStatus”(目标“Build”依赖于它):
+       任务“ReadLinesFromFile”
+       已完成执行任务“ReadLinesFromFile”的操作。
+       任务“WriteLinesToFile”
+       已完成执行任务“WriteLinesToFile”的操作。
+       正在使用程序集“Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a”中的“Touch”任务。
+       任务“Touch”
+         正在创建“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\obj\ARM\Debug\testlinux.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       已完成执行任务“Touch”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“InitializeBuildStatus”的操作。
+       已跳过目标“PrepareProjectReferences”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets”中的目标“BuildGenerateSourcesTraverse”(目标“BuildGenerateSources”依赖于它):
+       由于 false 条件，已跳过任务“MSBuild”；('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true')计算为('' == 'true' and '' != '' and '' != '' and '' == 'true')。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BuildGenerateSourcesTraverse”的操作。
+       已跳过目标“PrepareForBuild”。以前的生成已成功。
+       已跳过目标“ResolveReferences”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets”中的目标“BeforeBuildGenerateSources”(目标“_BuildGenerateSourcesAction”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“BeforeBuildGenerateSources”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets”中的目标“_ConsolidateSourcesToCopy”(目标“_RequiresRemoteConnection”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Microsoft.Build.Linux.Tasks.dll”中的“ConsolidateSourcesToCopy”任务。
+       任务“ConsolidateSourcesToCopy”
+       已完成执行任务“ConsolidateSourcesToCopy”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_ConsolidateSourcesToCopy”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets”中的目标“_RequiresRemoteConnection”(目标“_ResolveRemoteTarget”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Microsoft.Build.Linux.Tasks.dll”中的“RequiresRemoteConnection”任务。
+       任务“RequiresRemoteConnection”
+         Checking if current project requires a remote connection.
+         Current project requires a remote connection.
+       已完成执行任务“RequiresRemoteConnection”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_RequiresRemoteConnection”的操作。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets”中的目标“_ResolveRemoteTarget”(目标“PreBuildEvent”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Microsoft.Build.Linux.Tasks.dll”中的“ResolveRemoteTarget”任务。
+       任务“ResolveRemoteTarget”
+       已完成执行任务“ResolveRemoteTarget”的操作。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_ResolveRemoteTarget”的操作。
+       已跳过目标“_ResolveRemoteTarget”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets”中的目标“_PrepareUpToDateChecks”(目标“ResolveRemoteDir”依赖于它):
+     1>已完成在项目“testlinux.vcxproj”中生成目标“_PrepareUpToDateChecks”的操作。
+       已跳过目标“_RequiresRemoteConnection”。以前的生成已成功。
+     1>来自项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”的文件“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets”中的目标“ResolveRemoteDir”(目标“PreBuildEvent”依赖于它):
+       正在使用程序集“C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Microsoft.Build.Linux.Tasks.dll”中的“ResolveRemoteDir”任务。
+       任务“ResolveRemoteDir”
+     1>C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets(139,5): error : Could not connect to the remote system. Please verify your connection settings, and that your machine is on the network and reachable.
+       已完成执行任务“ResolveRemoteDir”的操作 - 失败。
+     1>已完成在项目“testlinux.vcxproj”中生成目标“ResolveRemoteDir”的操作 - 失败。
+     1>已完成生成项目“G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”(Rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+       “G:\aboutcg linux源\aboutcg\aboutcg包含c++客户端20200718\aboutcg包含c++客户端20200718\aboutcg\TestServer\code\testlinux.vcxproj”(Rebuild 目标) (1) ->
+       (ResolveRemoteDir 目标) -> 
+         C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Application Type\Linux\1.0\Linux.targets(139,5): error : Could not connect to the remote system. Please verify your connection settings, and that your machine is on the network and reachable.
+
+    0 个警告
+    1 个错误
+
+已用时间 00:00:15.66
