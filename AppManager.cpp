@@ -78,6 +78,7 @@ namespace app
 		__TcpServer->registerCommand(CMD_MOVE, __AppPlayer);
 		__TcpServer->registerCommand(CMD_PLAYERDATA, __AppPlayer);
 		__TcpServer->registerCommand(9999, __AppPlayer);
+		__TcpServer->registerCommand(CMD_DIE, __AppPlayer);
 
 		//__TcpServer->registerCommand(1001, __AppTest);
 

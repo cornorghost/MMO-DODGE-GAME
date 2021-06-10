@@ -95,6 +95,7 @@ namespace app
 		case CMD_LOGIN:onLogin(ts, c); break;
 		case CMD_MOVE:onMove(ts, c); break;
 		case CMD_PLAYERDATA:onGetPlayerData(ts, c); break;
+		case CMD_DIE:onDie(ts, c); break;
 		case 9999:
 			{
 				int len = 0;
@@ -177,6 +178,7 @@ namespace app
 	//2000 玩家移动
 	void app::AppPlayer::onMove(net::ITcpServer* ts, net::S_CLIENT_BASE* c)
 	{
+		LOG_MSG("we get 2000！！！！！！\n");
 		s32 memid;
 		f32 speed;
 		S_VECTOR pos;
@@ -222,6 +224,7 @@ namespace app
 	//3000 获取其他玩家数据
 	void AppPlayer::onGetPlayerData(net::ITcpServer* ts, net::S_CLIENT_BASE* c)
 	{
+		//LOG_MSG("we get 3000！！！！！！");
 		s32 memid;
 		ts->read(c->ID, memid);
 		auto it = __Onlines.find(memid);
@@ -240,6 +243,51 @@ namespace app
 		ts->sss(c->ID, player, sizeof(S_PLAYER_BASE));
 		ts->end(c->ID);
 
+	}
+
+	//5004 玩家死亡
+	void app::AppPlayer::onDie(net::ITcpServer* ts, net::S_CLIENT_BASE* c)
+	{
+		LOG_MSG("we get 5004");
+		//s32 memid;
+		//ts->read(c->ID, memid);
+		//LOG_MSG("服务器读取的ID"+memid);
+//		ts->read(c->ID, speed);
+//		ts->read(c->ID, &pos, sizeof(S_VECTOR));
+//		ts->read(c->ID, &rot, sizeof(S_VECTOR));
+//
+//		auto player = findPlayer(memid, c);
+//		if (player == NULL) return;
+//
+//		player->speed = speed;
+//		player->pos = pos;
+//		player->rot = rot;
+//
+//		auto it = __Onlines.begin();
+//		while (it != __Onlines.end())
+//		{
+//			auto other = it->second;
+//
+//#ifdef  ____WIN32_
+//			auto c2 = ts->client((SOCKET)other->socketfd, true);
+//#else
+//			auto c2 = ts->client(other->socketfd, true);
+//#endif
+//
+//			if (c2 == nullptr || other->memid == memid)
+//			{
+//				++it;
+//				continue;
+//			}
+//
+//			ts->begin(c2->ID, CMD_MOVE);
+//			ts->sss(c2->ID, memid);
+//			ts->sss(c2->ID, speed);
+//			ts->sss(c2->ID, &pos, sizeof(S_VECTOR));
+//			ts->sss(c2->ID, &rot, sizeof(S_VECTOR));
+//			ts->end(c2->ID);
+//			++it;
+//		}
 	}
 
 

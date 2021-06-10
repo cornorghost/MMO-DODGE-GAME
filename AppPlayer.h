@@ -20,6 +20,7 @@ namespace app
 
 		void onLogin(net::ITcpServer* ts, net::S_CLIENT_BASE* c);
 		void onMove(net::ITcpServer* ts, net::S_CLIENT_BASE* c);
+		void onDie(net::ITcpServer* ts, net::S_CLIENT_BASE* c);
 		void onGetPlayerData(net::ITcpServer* ts, net::S_CLIENT_BASE* c);
 	};
 
