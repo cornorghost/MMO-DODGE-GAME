@@ -178,7 +178,7 @@ namespace app
 	//2000 Íæ¼ÒÒÆ¶¯
 	void app::AppPlayer::onMove(net::ITcpServer* ts, net::S_CLIENT_BASE* c)
 	{
-		LOG_MSG("we get 2000\n");
+		//LOG_MSG("we get 2000\n");
 		s32 memid;
 		f32 speed;
 		S_VECTOR pos;
@@ -271,7 +271,13 @@ namespace app
 			if (c2 == nullptr || other->memid == memid)
 			{
 				LOG_MSG("got same id£º%d\n", memid);
-				++it;
+				it=__Onlines.erase(it);
+				playerLeave(player->memid);
+				it = __Onlines.erase(it);
+				player->init();
+				__PlayersPool.push_back(player);
+
+				c->Reset();
 				continue;
 			}
 
