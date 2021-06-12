@@ -69,6 +69,7 @@ namespace app
 			}
 			if (c->state == func::S_NeedSave)
 			{
+				LOG_MSG("need save\n");
 				playerLeave(player->memid);
 				it = __Onlines.erase(it);
 				player->init();
